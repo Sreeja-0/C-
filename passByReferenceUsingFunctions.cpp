@@ -2,7 +2,7 @@
 using namespace std;
 
 //program for demonstrating pass by reference
-void passByReference(string s)
+void passByReference(string &s)
 {
     s[0] = 'm';
     cout << s << endl;
