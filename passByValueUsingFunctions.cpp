@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-//program for demonstrating arithmetic operations using functions
+//program for demonstrating pass by value using functions
 void passByValue(int num)
 {
     cout << num << endl;
